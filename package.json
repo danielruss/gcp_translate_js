@@ -1,0 +1,28 @@
+{
+  "name": "gcp_translate_node",
+  "version": "1.0.0",
+  "description": "node example gcp translate",
+  "main": "node_translate.js",
+  "scripts": {
+    "test": "mocha node_translate_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielruss/translate_js.git"
+  },
+  "keywords": [
+    "gcp",
+    "translate"
+  ],
+  "author": "druss@mail.nih.gov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielruss/translate_js/issues"
+  },
+  "homepage": "https://github.com/danielruss/translate_js#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^8.2.0",
+    "chai": "^4.4.1",
+    "mocha": "^10.4.0"
+  }
+}
